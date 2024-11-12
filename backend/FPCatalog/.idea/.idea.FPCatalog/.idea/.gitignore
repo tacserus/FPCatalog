@@ -1,0 +1,14 @@
+# Default ignored files
+/backend/FPCatalog/appsettings.json
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/.idea.FPCatalog.iml
+/contentModel.xml
+/projectSettingsUpdater.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml

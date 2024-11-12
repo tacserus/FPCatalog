@@ -1,0 +1,37 @@
+.main-page-block {
+    text-align: center;
+}
+
+.main-page-title {
+    border: 0.3vmin solid rgb(26, 26, 26);
+    border-radius: 3vmin;
+    color: white;
+    width: 50vw;
+    margin-top: 25vh;
+    margin-bottom: 10vh;
+    font-size: 3vmin;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    font-family: Helvetica, serif;
+}
+
+.main-link {
+    color: white;
+    background-color: #262626;
+    border-color: rgb(26, 26, 26);
+    border-width: 0 0 1.5vmin 0;
+    border-style: solid;
+    border-radius: 4vmin;
+    width: 35vw;
+    height: 14vh;
+    text-decoration: none;
+    transition: background-color 0.6s;
+}
+
+.main-link:hover {
+    background-color: #ffa600;
+    border-color: rgba(59, 42, 19, 0.86);
+    box-shadow: 0 0 100px 10px rgba(255, 166, 0, 0.42);
+    color: #1c1c1c;
+    transform: scale(1.1);
+}

@@ -1,0 +1,353 @@
+.form-container {
+    max-width: 72vw;
+    height: 55vh;
+    box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    background: black;
+    border: 2px solid #262626;
+    border-radius: 20px;
+    padding: 10px 20px 20px 20px;
+    margin-top: 55px;
+    transition: background-color 2s;
+}
+.form-container:hover {
+    box-shadow: 0 0 50px 30px rgba(255, 255, 255, 0.1);
+}
+
+.form-container.success {
+    box-shadow: 0 0 50px 30px green;
+}
+
+.form-container.error {
+    box-shadow: 0 0 50px 30px red;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+.form-field-block {
+    flex-basis: 48%;
+    margin: 10px;
+    border: 1px solid #1c1c1c;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 100px;
+}
+
+.form-field-block:hover {
+    box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.1);
+}
+
+#form-field-block-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-size: 25px;
+}
+
+.form-field-block label {
+    color: white;
+    box-sizing: content-box;
+}
+
+.form-field-block input {
+    width: 180px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 7px;
+    transform: scale(1.2);
+    box-sizing: content-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-field-block select {
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid #262626;
+    border-radius: 7px;
+    text-align: center;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.form-field-block select option:hover {
+    background-color: #ffa600;
+    border-color: rgba(59, 42, 19, 0.86);
+    box-shadow: 0 0 35px 2px rgba(255, 166, 0, 0.42);
+    color: #1c1c1c;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 2px solid white;
+    position: relative;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+    content: "";
+    border-radius: 3px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+}
+
+.custom-checkbox input:not(:checked) + .checkmark::after {
+    content: none;
+}
+
+.custom-date-picker {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-date-input {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.calendar {
+    position: absolute;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 15px;
+    z-index: 1;
+    margin-left: -27%;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20px;
+    max-height: 30px;
+}
+
+.calendar-header span {
+    color: white;
+}
+
+.calendar-header button {
+    border-color: #ababab;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 15px;
+}
+
+.day:not(.empty) {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #7a7a7a;
+}
+
+.day:not(.empty):hover {
+    background-color: #ffa600;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 1px rgba(255, 166, 0, 0.42);
+    border-color: rgba(59, 42, 19, 0.86);
+    color: black;
+    transform: scale(1.2);
+}
+
+.empty {
+    background-color: transparent;
+}
+
+.select-container {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.select-container option {
+    min-width: 100px;
+}
+
+.submit-form {
+    color: white;
+    background-color: #262626;
+    border-color: rgb(26, 26, 26);
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-radius: 30px;
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.submit-form:hover {
+    background-color: #ffa600;
+    box-shadow: 0 0 35px 2px rgba(255, 166, 0, 0.42);
+    border-color: rgba(59, 42, 19, 0.86);
+    color: #1c1c1c;
+    cursor: pointer;
+}
+
+.submit-form:disabled {
+    background-color: #262626;
+    border-color: rgb(26, 26, 26);
+    box-shadow: 0 0 35px 2px rgba(70, 70, 70, 0.62);
+    color: #1c1c1c;
+}
+
+
+.form-title-block {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    color: white;
+}
+
+
+
+
+
+
+.select-header {
+    color: white;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    gap: 20%;
+    padding-left: 15px;
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    width: 85px;
+}
+
+.dropdown-toggle {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    max-height: 230px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 15px;
+}
+
+.dropdown-item {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    height: 30px;
+    align-content: center;
+    padding: 0;
+    background-color: black;
+}
+
+.form-dropdown {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    color: white;
+    background-color: black;
+    align-content: center;
+    text-align: center;
+}
+
+.form-dropdown-toggle {
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px 0 5px 0;
+    width: 240px;
+}
+
+.form-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    max-height: 100px;
+    border-radius: 10px;
+}
+
+.form-dropdown-item {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    height: 30px;
+    align-content: center;
+    padding: 0;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.form-dropdown-item:hover {
+    background-color: #ffa600;
+    box-shadow: 0 0 10px 5px rgba(255, 166, 0, 0.42);
+    border-color: rgba(59, 42, 19, 0.86);
+    border-radius: 8px;
+    color: black;
+    z-index: 1;
+}
+
+.dropdown-item:hover {
+    background-color: #ffa600;
+    box-shadow: 0 0 10px 5px rgba(255, 166, 0, 0.42);
+    border-color: rgba(59, 42, 19, 0.86);
+    color: black;
+    z-index: 1;
+}

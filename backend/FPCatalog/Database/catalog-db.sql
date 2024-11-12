@@ -1,0 +1,14 @@
+BEGIN;
+
+CREATE TABLE IF NOT EXISTS players.footballPlayer
+(
+    id SERIAL NOT NULL PRIMARY KEY,
+    name CHARACTER VARYING(40) NOT NULL,
+    surname CHARACTER VARYING(40) NOT NULL,
+    gender BOOLEAN NOT NULL,
+    birth_date DATE NOT NULL,
+    teem_name CHARACTER VARYING(40) NOT NULL,
+    country CHARACTER VARYING(40) NOT NULL
+)
+
+END;

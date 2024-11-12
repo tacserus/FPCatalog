@@ -1,0 +1,19 @@
+.not-found-block {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.not-found-title {
+    font-size: 160%;
+    margin-bottom: 1%;
+}
+
+#not-found-link {
+    margin-bottom: 10%;
+    transform: scale(0.9);
+}

@@ -1,0 +1,146 @@
+/* Background style */
+
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Helvetica, serif;
+}
+
+.page-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+
+/* Link style */
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.link-text-container {
+    width: 100%;
+    height: 100%;
+    display: flex; /* Используем flexbox */
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8vmin;
+}
+
+/* Page title styles */
+
+.title-block {
+    top: 0;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-page-title {
+    border: 0.3vmin solid rgb(26, 26, 26);
+    border-radius: 2.5vmin;
+    color: white;
+    width: 45vw;
+    font-size: 2.5vmin;
+    padding-bottom: 2.5vh;
+    padding-top: 2.5vh;
+    text-align: center;
+}
+
+.child-link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 4vw;
+}
+
+.child-link {
+    color: white;
+    background-color: #262626;
+    border-color: rgb(26, 26, 26);
+    border-width: 0 0 1vmin 0;
+    border-style: solid;
+    border-radius: 4vmin;
+    width: 35vw;
+    height: 10vh;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.child-link:hover {
+    background-color: #ffa600;
+    border-color: rgba(59, 42, 19, 0.86);
+    box-shadow: 0 0 35px 2px rgba(255, 166, 0, 0.42);
+    color: #1c1c1c;
+    transform: scale(1.1);
+}
+
+#form-field-block-teem-name {
+    position: relative;
+    display: flex;
+    margin-bottom: 0;
+}
+
+#edit-card-block-teem-name {
+    position: relative;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.teem-name-container {
+    position: absolute; /* Позиционируем контейнер выпадающего списка */
+    left: 0;
+    width: 40%;
+    z-index: 1; /* Чтобы выпадающий список был над инпутом */
+    margin-left: 49%;
+    top: 70%;
+}
+
+.teem-name-menu {
+    list-style-type: none;
+    background-color: black; /* Цвет фона */
+    border: 1px solid #ccc; /* Рамка */
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+    padding: 0;
+    max-height: 100px;
+    overflow-y: auto;
+    margin: 0;
+}
+
+.teem-name-item {
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.teem-name-item:hover {
+    background-color: #ffa600;
+    border-color: rgba(59, 42, 19, 0.86);
+    border-radius: 6px;
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+}

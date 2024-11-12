@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca050373-8ff0-4e32-afab-bfa8f9edbeba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CatalogDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FootballPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Models/CreatePlayerModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Models/ResponsePlayerModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Models/UpdatePlayerModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApi/Controllers/FootballPlayerController_Base.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApi/Controllers/FootballPlayerController_Change.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApi/Controllers/FootballPlayerController_Create.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApi/Controllers/FootballPlayerController_DeletePlayerById.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApi/Controllers/FootballPlayerController_GetPlayerById.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApi/Controllers/FootballPlayerController_GetPlayers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApi/Controllers/FootballPlayerController_GetTeemNames.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/components/form-component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/components/scroll-football-player-container-component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/components/teem-name-input-component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/models/football-player-create.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/models/football-player.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/pages/adding-page/adding-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/pages/display-page/display-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/pages/display-page/football-player-card/football-player-card-display-mode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/pages/display-page/football-player-card/football-player-card-edit-mode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/pages/display-page/football-player-card/football-player-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/pages/main-page/main-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/pages/not-found-page/not-found-page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/routing/api-router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../frontend2/src/react/routing/app-router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/.idea/.idea.FootballPlayersCatalog.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../backend/.idea/.idea.FootballPlayersCatalog.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/.idea/.idea.FootballPlayersCatalog.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/.idea/.idea.FootballPlayersCatalog.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/.idea/.idea.FootballPlayersCatalog.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/FootballPlayersCatalog.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/controllers/FootballPlayerController_Base.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/controllers/FootballPlayerController_Change.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/controllers/FootballPlayerController_Create.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/controllers/FootballPlayerController_DeletePlayerById.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/controllers/FootballPlayerController_GetPlayerById.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/controllers/FootballPlayerController_GetPlayers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/controllers/FootballPlayerController_GetTeemNames.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/database/CatalogDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/database/FootballPlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/database/catalog-db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/models/CreatePlayerModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../backend/FootballPlayersCatalog/models/UpdatePlayerModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/.idea/frontend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../frontend/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2nwJRsw1J6WnfeuVEvjyN0K7nvM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca050373-8ff0-4e32-afab-bfa8f9edbeba" name="Changes" comment="" />
+      <created>1729878200091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729878200091</updated>
+      <workItem from="1729878201252" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
